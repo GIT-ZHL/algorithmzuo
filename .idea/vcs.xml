@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/algorithm-primary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/algorithmbasic2020" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/class-notes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coding-for-great-offer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mca-algorithm-problems" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weekly-problems" vcs="Git" />
+  </component>
+</project>

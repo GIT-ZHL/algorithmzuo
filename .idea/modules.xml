@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm-primary/algorithm-primary.iml" filepath="$PROJECT_DIR$/algorithm-primary/algorithm-primary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-study/algorithm-study.iml" filepath="$PROJECT_DIR$/algorithm-study/algorithm-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithmbasic2020/algorithmbasic2020.iml" filepath="$PROJECT_DIR$/algorithmbasic2020/algorithmbasic2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithmzuo.iml" filepath="$PROJECT_DIR$/.idea/algorithmzuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding-for-great-offer/coding-for-great-offer.iml" filepath="$PROJECT_DIR$/coding-for-great-offer/coding-for-great-offer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mca-algorithm-problems/mca-algorithm-problems.iml" filepath="$PROJECT_DIR$/mca-algorithm-problems/mca-algorithm-problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weekly-problems/weekly-problems.iml" filepath="$PROJECT_DIR$/weekly-problems/weekly-problems.iml" />
+    </modules>
+  </component>
+</project>

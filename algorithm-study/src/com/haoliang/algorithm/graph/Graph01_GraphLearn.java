@@ -3,7 +3,6 @@ package com.haoliang.algorithm.graph;
 import java.util.*;
 
 public class Graph01_GraphLearn {
-
     public static class Node {
         public int value;
         public int in;
@@ -11,7 +10,6 @@ public class Graph01_GraphLearn {
         public List<Node> nextList;
         public List<Edge> edgeList;
     }
-
     public static class Edge {
         public int weight;
         public Node from;
@@ -23,7 +21,6 @@ public class Graph01_GraphLearn {
             this.to = to;
         }
     }
-
     public static class Graph {
         public Map<Integer, Node> nodeMap;
         public Set<Edge> edgeSet;

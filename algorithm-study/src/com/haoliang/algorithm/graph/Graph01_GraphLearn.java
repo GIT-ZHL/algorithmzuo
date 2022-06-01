@@ -10,6 +10,7 @@ public class Graph01_GraphLearn {
         public List<Node> nextList;
         public List<Edge> edgeList;
     }
+
     public static class Edge {
         public int weight;
         public Node from;

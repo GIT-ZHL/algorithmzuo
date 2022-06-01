@@ -14,7 +14,7 @@ public class AdjacencyMatrix {
     public AdjacencyMatrix(int numVertexes, int numEdges) {
         this.numVertexes = numVertexes;
         this.numEdges = numEdges;
-        this.vexs = new ArrayList<String>(numVertexes);
+        this.vexs = new ArrayList<>(numVertexes);
         this.edges = new int[numVertexes][numVertexes];
         this.visited = new boolean[numVertexes];
     }

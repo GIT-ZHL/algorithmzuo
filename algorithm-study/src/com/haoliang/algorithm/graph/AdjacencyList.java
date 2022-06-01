@@ -3,31 +3,30 @@ package com.haoliang.algorithm.graph;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-class EdgeNode {
-    int vex;
-    int adjvex; // 邻接点域，存储该顶点对应的下标
-    int weight;
-    EdgeNode next;
-
-    public EdgeNode(int vex, int adjvex, int weight) {
-        this.vex = vex;
-        this.adjvex = adjvex;
-        this.weight = weight;
-        this.next = null;
-    }
-}
-
-class VertexNode {
-    String data; // 顶点域，存储顶点信息
-    EdgeNode firstedge; // 边表头
-
-    public VertexNode(String data) {
-        this.data = data;
-        this.firstedge = null;
-    }
-}
-
 public class AdjacencyList {
+    public static class EdgeNode {
+        int vex;
+        int adjvex; // 邻接点域，存储该顶点对应的下标
+        int weight;
+        EdgeNode next;
+
+        public EdgeNode(int vex, int adjvex, int weight) {
+            this.vex = vex;
+            this.adjvex = adjvex;
+            this.weight = weight;
+            this.next = null;
+        }
+    }
+
+    public static class VertexNode {
+        String data; // 顶点域，存储顶点信息
+        EdgeNode firstedge; // 边表头
+
+        public VertexNode(String data) {
+            this.data = data;
+            this.firstedge = null;
+        }
+    }
 
     private ArrayList<VertexNode> vexs; // 顶点表
     int numVertexes;

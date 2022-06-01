@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Graph01_GraphLearn {
     public static class Node {
-        public int value;
+        public String value;
         public int in;
         public int out;
         public List<Node> nextList;
@@ -21,6 +21,7 @@ public class Graph01_GraphLearn {
             this.to = to;
         }
     }
+
     public static class Graph {
         public Map<Integer, Node> nodeMap;
         public Set<Edge> edgeSet;
@@ -33,6 +34,7 @@ public class Graph01_GraphLearn {
 
 
     public static void main(String[] args) {
+        Graph graph = new Graph();
 
     }
 }
